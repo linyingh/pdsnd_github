@@ -31,7 +31,7 @@ ylab('Count of Start Stations')
 #Pershiong Square North(592 count),W 21 St & 6 Ave (385 count)
 #and Broadway & E 22 St (383 count).
 
-# How is bike trip duraiton different by gender in New York City?
+# How is bike trip duration different by gender in New York City?
 
 
 ny = read.csv('new_york_city.csv')
