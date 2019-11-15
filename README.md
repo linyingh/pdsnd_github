@@ -16,4 +16,4 @@ chicago.csv
 washigton.csv
 
 ### Credits
-credits to Udacity
+credits to Udacity and Github
