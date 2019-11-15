@@ -9,7 +9,7 @@ head(wash)
 
 head(chi)
 
-# The 3 most common start stations in New York City
+# The three most common start stations in New York City
 
 
 ny = read.csv('new_york_city.csv')
@@ -25,9 +25,9 @@ ggplot(data.frame(subset(ny, ny$Start.Station%in%c('Pershing Square North',
   geom_bar()+
 ggtitle('The 3 most common start stations in New York City')+
 ylab('Count of Start Stations')
-    
 
-#The 3 most common start stations in New York City are 
+
+#The 3 most common start stations in New York City are
 #Pershiong Square North(592 count),W 21 St & 6 Ave (385 count)
 #and Broadway & E 22 St (383 count).
 
@@ -46,9 +46,9 @@ ggtitle('Tirp Duration Differences between Male and Female Users in New York Cit
 
 
 
-#After excluding the cells value that are blank in the Gender column and the outliers that have value beyond 1500 
-#for the Trip Duration column, we can see from the box plot that the median trip duration of female users are higher 
-#than the male users. 
+#After excluding the cells value that are blank in the Gender column and the outliers that have value beyond 1500
+#for the Trip Duration column, we can see from the box plot that the median trip duration of female users are higher
+#than the male users.
 
 # Which birth year range do most of users in Chincago fall into?
 
@@ -69,4 +69,3 @@ ylab('Count of Users')
 #most of the users were born between 1985-1990 in Chicago
 
 system('python -m nbconvert Explore_bikeshare_data.ipynb')
-
